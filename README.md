@@ -10,8 +10,7 @@
 
 ## How to build this image, and then push to our private registry
 
-```
-#!bash
+  ```
   # Build your image.
   docker build \
     --no-cache=true \
@@ -31,17 +30,16 @@
 
   # Push your image to the registry.
   docker push micro02.sgdev.vcube.com:65300/util-dev-leonard-1:0.0.1
-```
+  ```
 
 ## Run this project at your localhost
 
-```
-#!bash
+  ```
   #
   ## -n to specify whether you need to run npm install.
   ## -w to specify the owner of this env.
   #
   source run.sh -n -w leonard
-```
+  ```
 
 
